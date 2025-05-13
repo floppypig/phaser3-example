@@ -5,4 +5,6 @@ Simple demo game used for testing [Phaser extension](https://github.com/floppypi
 
 Uses phaser 3.88.2
 
+The Phaser.Game object is available via `window.__PHASER_GAME__`
+
 Play at [phaser3.pages.dev](https://phaser3.pages.dev/)
