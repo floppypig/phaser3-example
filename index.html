@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phaser 3 Vite Game</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #game-container canvas {
+      border: 1px solid black;
+    }
+
+    /* Optional: for visibility */
+  </style>
+</head>
+
+<body>
+  <div id="app"> <!-- Your Vite app root -->
+    <div id="game-container"></div> <!-- Phaser game will go here -->
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
